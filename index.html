@@ -1,2 +1,27 @@
-bewvbchjb
-cwekjcbuwnwa
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple HTML Function</title>
+</head>
+<body>
+
+<h1>Welcome to My Web Page</h1>
+
+<!-- Button to trigger the function -->
+<button onclick="displayMessage()">Click Me</button>
+
+<!-- Element to display the message -->
+<p id="message"></p>
+
+<script>
+    // JavaScript function to display a message
+    function displayMessage() {
+        const messageElement = document.getElementById("message");
+        messageElement.innerText = "Hello! You clicked the button!";
+    }
+</script>
+
+</body>
+</html>
